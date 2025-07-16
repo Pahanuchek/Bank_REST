@@ -1,0 +1,6 @@
+databaseChangeLog:
+  - includeAll:
+      path: db/migration/
+      relativeToChangelogFile: true
+      filter: "V[0-9]+__.*.yaml"
+      errorIfMissing: true
