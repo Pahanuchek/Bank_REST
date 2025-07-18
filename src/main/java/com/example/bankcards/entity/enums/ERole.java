@@ -6,6 +6,6 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public enum ERole {
-    ROLE_CLIENT,
+    ROLE_USER,
     ROLE_ADMIN
 }

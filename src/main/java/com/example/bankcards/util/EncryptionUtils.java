@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
-public class EncryptionUtil {
+public class EncryptionUtils {
     private final TextEncryptor textEncryptor;
 
     public String encrypt(String originalData) {

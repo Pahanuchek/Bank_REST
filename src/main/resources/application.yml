@@ -23,6 +23,9 @@ encoding:
   password: test
   salt: korablecrushenie
 
+app:
+  jwt-secret: yourSecretKeyForJWTSigningMustBeAtLeast512BitsLongakjkjfkjhejkhdkjfhkjhwjkhfkjhwekjvhkjwhkjhrkjvhkjrh
+  jwt-expiration-ms: 86400000
 #  liquibase:
 #    enabled: true
 #    change-log: classpath:db/migration/db.changelog-master.yaml

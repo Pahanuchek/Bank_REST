@@ -1,6 +1,6 @@
 package com.example.bankcards.controller;
 
-import com.example.bankcards.dto.request.CardCreateDtoRequest;
+import com.example.bankcards.dto.request.card.CardCreateDtoRequest;
 import com.example.bankcards.service.CardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
